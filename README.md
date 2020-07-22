@@ -10,7 +10,7 @@
 
 This application helps the customer to get a consolidated summary of his expenses and advises on new products that would suit him and any alerts, reminders for next payment and so on.
 
-💲🤑 Be in control of your finances with Money Manager! 🏧👛
+💲🤑 Be in control of your finances with Expenses Discovery! 🏧👛
 
 ## Pre-requisites
 --------------
