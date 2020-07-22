@@ -29,7 +29,7 @@ npm install -g @angular/cli
 --------------
 
 1.    Clone this repository.
-2.    Open Visual Studio Code, Goto File > Open Folder 
+2.    Open Visual Studio Code, Goto File > <<WorkingDirectory>> > Open UI Folder 
 3.    Select the cloned Repository  
 
 ### Install
@@ -52,7 +52,7 @@ To build the project, use command
 ng build
 ```
 
-The build artifacts will be stored in the `dist/` directory.
+The build artifacts will be stored in the `<<WorkingDirectory>>/UI/` directory.
 
 To run the application, use command:
 
