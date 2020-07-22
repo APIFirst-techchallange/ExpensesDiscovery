@@ -8,7 +8,7 @@
      <span class="right">{{toggleSymbol}}</span> 
     </div>
    <div *ngIf="showMerchantTransaction">
-      <div *ngFor="let transaction of filteredMerchantTransactions" class="grid-container">
+      <div *ngFor="let transaction of bilTransactions" class="grid-container">
         <div class="grid-item">
             <div class="icon">
             </div>
@@ -21,7 +21,7 @@
         </div>
         <div class="grid-item">
             <div class="right-desc">
-                <h1 class="h1">Spent: £ {{transaction.Amount.Amount}}</h1>
+                <h1 class="h1">Spent: £ {{transaction.Amount}}</h1>
                 <h2></h2>
             </div>
         </div>  

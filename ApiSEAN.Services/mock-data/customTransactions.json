@@ -7,7 +7,7 @@
                 "Status": "Booked",
                 "BookingDateTime": "21-07-2020",
                 "Amount": {
-                    "Amount": "900.00",
+                    "Amount": "300.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
@@ -29,7 +29,51 @@
                 "Status": "Booked",
                 "BookingDateTime": "21-07-2020",
                 "Amount": {
-                    "Amount": "3600.00",
+                    "Amount": "5600.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "TFR"
+                },
+                "TransactionInformation": "Amazon",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "124677.92",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "21-07-2020",
+                "Amount": {
+                    "Amount": "5000.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "POS"
+                },
+                "TransactionInformation": "ATM",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "125630.92",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "21-07-2020",
+                "Amount": {
+                    "Amount": "1200.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
@@ -51,7 +95,52 @@
                 "Status": "Booked",
                 "BookingDateTime": "20-07-2020",
                 "Amount": {
-                    "Amount": "3000.00",
+                    "Amount": "340.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "TFR"
+                },
+                "TransactionInformation": "ePay",
+                "Balance": {
+                    "CreditDebitIndicator": "Debit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "125680.92",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "20-07-2020",
+                "Amount": {
+                    "Amount": "340.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "TFR"
+                },
+                "TransactionInformation": "Subway",
+                "Balance": {
+                    "CreditDebitIndicator": "Debit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "125680.92",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "19-07-2020",
+                "Amount": {
+                    "Amount": "300.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
@@ -63,6 +152,28 @@
                     "Type": "Information",
                     "Amount": {
                         "Amount": "3000.00",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "18-07-2020",
+                "Amount": {
+                    "Amount": "300.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "TFR"
+                },
+                "TransactionInformation": "Metro train pass",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "123.92",
                         "Currency": "GBP"
                     }
                 }
@@ -89,77 +200,39 @@
                     }
                 }
             },
+
+
+
+
+
             {
                 "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
                 "CreditDebitIndicator": "Debit",
                 "Status": "Booked",
-                "BookingDateTime": "18-07-2020",
+                "BookingDateTime": "21-06-2020",
                 "Amount": {
-                    "Amount": "5600.00",
+                    "Amount": "1200.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
-                    "Code": "TFR"
+                    "Code": "BIL"
                 },
-                "TransactionInformation": "Amazon",
+                "TransactionInformation": "House rent",
                 "Balance": {
                     "CreditDebitIndicator": "Credit",
                     "Type": "Information",
                     "Amount": {
-                        "Amount": "124677.92",
+                        "Amount": "3600.00",
                         "Currency": "GBP"
                     }
                 }
             },
+            
             {
                 "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
                 "CreditDebitIndicator": "Debit",
                 "Status": "Booked",
-                "BookingDateTime": "15-07-2020",
-                "Amount": {
-                    "Amount": "340.00",
-                    "Currency": "GBP"
-                },
-                "ProprietaryBankTransactionCode": {
-                    "Code": "TFR"
-                },
-                "TransactionInformation": "ePay",
-                "Balance": {
-                    "CreditDebitIndicator": "Debit",
-                    "Type": "Information",
-                    "Amount": {
-                        "Amount": "125680.92",
-                        "Currency": "GBP"
-                    }
-                }
-            },
-            {
-                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
-                "CreditDebitIndicator": "Debit",
-                "Status": "Booked",
-                "BookingDateTime": "14-07-2020",
-                "Amount": {
-                    "Amount": "5000.00",
-                    "Currency": "GBP"
-                },
-                "ProprietaryBankTransactionCode": {
-                    "Code": "POS"
-                },
-                "TransactionInformation": "ATM",
-                "Balance": {
-                    "CreditDebitIndicator": "Credit",
-                    "Type": "Information",
-                    "Amount": {
-                        "Amount": "125630.92",
-                        "Currency": "GBP"
-                    }
-                }
-            },
-            {
-                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
-                "CreditDebitIndicator": "Debit",
-                "Status": "Booked",
-                "BookingDateTime": "14-07-2020",
+                "BookingDateTime": "20-06-2020",
                 "Amount": {
                     "Amount": "1500.00",
                     "Currency": "GBP"
@@ -177,24 +250,25 @@
                     }
                 }
             },
+
             {
                 "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
                 "CreditDebitIndicator": "Debit",
                 "Status": "Booked",
-                "BookingDateTime": "12-07-2020",
+                "BookingDateTime": "20-06-2020",
                 "Amount": {
-                    "Amount": "500.00",
+                    "Amount": "400.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
-                    "Code": "TFR"
+                    "Code": "BIL"
                 },
-                "TransactionInformation": "Sainberrys Shopping",
+                "TransactionInformation": "Electricity bill",
                 "Balance": {
                     "CreditDebitIndicator": "Credit",
                     "Type": "Information",
                     "Amount": {
-                        "Amount": "125530.92",
+                        "Amount": "3000.00",
                         "Currency": "GBP"
                     }
                 }
@@ -203,7 +277,7 @@
                 "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
                 "CreditDebitIndicator": "Debit",
                 "Status": "Booked",
-                "BookingDateTime": "11-07-2020",
+                "BookingDateTime": "20-06-2020",
                 "Amount": {
                     "Amount": "1500.00",
                     "Currency": "GBP"
@@ -225,20 +299,20 @@
                 "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
                 "CreditDebitIndicator": "Debit",
                 "Status": "Booked",
-                "BookingDateTime": "22-06-2020",
+                "BookingDateTime": "20-06-2020",
                 "Amount": {
                     "Amount": "300.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
-                    "Code": "TFR"
+                    "Code": "BIL"
                 },
-                "TransactionInformation": "Subway",
+                "TransactionInformation": "Vodafone mobile bill",
                 "Balance": {
                     "CreditDebitIndicator": "Credit",
                     "Type": "Information",
                     "Amount": {
-                        "Amount": "123.92",
+                        "Amount": "900.00",
                         "Currency": "GBP"
                     }
                 }
@@ -247,24 +321,130 @@
                 "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
                 "CreditDebitIndicator": "Debit",
                 "Status": "Booked",
-                "BookingDateTime": "15-06-2020",
+                "BookingDateTime": "18-06-2020",
+                "Amount": {
+                    "Amount": "450.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "BIL"
+                },
+                "TransactionInformation": "Water bill",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "124678.92",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+
+
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "21-05-2020",
+                "Amount": {
+                    "Amount": "1200.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "BIL"
+                },
+                "TransactionInformation": "House rent",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "3600.00",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+            
+           
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "20-05-2020",
+                "Amount": {
+                    "Amount": "469.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "BIL"
+                },
+                "TransactionInformation": "Electricity bill",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "3000.00",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+            
+            
+           
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "18-05-2020",
+                "Amount": {
+                    "Amount": "350.00",
+                    "Currency": "GBP"
+                },
+                "ProprietaryBankTransactionCode": {
+                    "Code": "BIL"
+                },
+                "TransactionInformation": "Water bill",
+                "Balance": {
+                    "CreditDebitIndicator": "Credit",
+                    "Type": "Information",
+                    "Amount": {
+                        "Amount": "124678.92",
+                        "Currency": "GBP"
+                    }
+                }
+            },
+
+            {
+                "AccountId": "6a37fad9-d1a1-4ca4-9bf3-7e4bf0c36c8d",
+                "CreditDebitIndicator": "Debit",
+                "Status": "Booked",
+                "BookingDateTime": "17-05-2020",
                 "Amount": {
                     "Amount": "300.00",
                     "Currency": "GBP"
                 },
                 "ProprietaryBankTransactionCode": {
-                    "Code": "TFR"
+                    "Code": "BIL"
                 },
-                "TransactionInformation": "Metro train pass",
+                "TransactionInformation": "Vodafone mobile bill",
                 "Balance": {
                     "CreditDebitIndicator": "Credit",
                     "Type": "Information",
                     "Amount": {
-                        "Amount": "123.92",
+                        "Amount": "900.00",
                         "Currency": "GBP"
                     }
                 }
             }
+
+
+           
+            
+           
+           
+           
+           
+           
+          
 
         ]
     }

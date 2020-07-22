@@ -20,6 +20,8 @@ export class ExpenseTrendsComponent implements OnInit {
   filteredVariableTransactions: any[] = [];
   filteredCardsTransactions: any[] = [];
 
+  bilTransactions: any[] = [];
+
   toggleText: string = "show";
   toogleCardText: string = "show";
   toggleVariableText: string = "show";
@@ -84,7 +86,9 @@ export class ExpenseTrendsComponent implements OnInit {
   filterMerchantsTransactions(){
      this.filteredMerchantTransactions =  this.transactions.filter((item)=>{
        return item.ProprietaryBankTransactionCode.Code === "BIL"
-      })
+
+     
+  })
 
     //  this.filteredMerchantTransactions.forEach(item => {
     //    if(item.TransactionInformation === "House Rent"){
@@ -133,6 +137,31 @@ export class ExpenseTrendsComponent implements OnInit {
     if(this.toggleText === 'show'){
       this.showMerchantTransaction = true;
       this.filterMerchantsTransactions();
+
+      let vTotal: any = 0; let hTotal: any = 0; let eTotal: any = 0; let wTotal: any = 0;
+
+      this.bilTransactions = [];
+      this.filteredMerchantTransactions.forEach(element => {
+        if (element.TransactionInformation === "Vodafone mobile bill") {
+          vTotal += parseInt(element.Amount.Amount);
+        }
+        else  if (element.TransactionInformation === "House rent") {
+          hTotal += parseInt(element.Amount.Amount);
+        }
+        else  if (element.TransactionInformation === "Water bill") {
+          wTotal += parseInt(element.Amount.Amount);
+        }
+        else  if (element.TransactionInformation === "Electricity bill") {
+          eTotal += parseInt(element.Amount.Amount);
+        }
+        
+      });
+
+      this.bilTransactions.push({"TransactionInformation":"House rent","Amount":hTotal});
+      this.bilTransactions.push({"TransactionInformation":"Water bill","Amount":wTotal});
+      this.bilTransactions.push({"TransactionInformation":"Electricity bill","Amount":eTotal});
+      this.bilTransactions.push({"TransactionInformation":"Vodafone mobile bill","Amount":vTotal});
+     
       this.toggleText = "hide";
       this.toggleSymbol = "-";
     }
