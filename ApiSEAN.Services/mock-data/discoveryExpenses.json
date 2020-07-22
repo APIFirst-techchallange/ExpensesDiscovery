@@ -74,27 +74,23 @@
         ],
 		"ExpertAdvices": [
             {                                           
-                "TransactionInformation": "53-62 South Bridge"              
+                "AdviceNo": "1234",
+				"AdviceInformation":"Paying too much rent. Think about mortagages. <a href='#'>Know More</a>"
             },
-			{                                         
-                "TransactionInformation": "12 N W Circus Pl, Stockbridge, Edinburgh EH3 6SX"              
-            }
-			,
-			{                  
-                "TransactionInformation": "2 Bernard St, Leith, Edinburgh EH6 6PX"              
-            }                                                                                                     
+			{                                           
+                "AdviceNo": "7890",
+				"AdviceInformation":"Spending more on e-commerce transactions. Think to buy credit card to get interesting reward points. <a href='#'>Know More</a>"
+            }                                                                                                    
         ],
 		"Reminders": [
-            {                                          
-                "TransactionInformation": "53-62 South Bridge"              
+            {    
+				"AlertId":626,
+                "AlertInformation": "Unaccounted ATM Cash withdrawl cannot track accurate expenses, so please go for digital transactions"              
             },
-			{                                         
-                "TransactionInformation": "12 N W Circus Pl, Stockbridge, Edinburgh EH3 6SX"              
-            }
-			,
-			{                                          
-                "TransactionInformation": "2 Bernard St, Leith, Edinburgh EH6 6PX"              
-            }                                                                                                     
+			 {    
+				"AlertId":628,
+                "AlertInformation": "Your next house rent payment due fails in next two days, but the bank notified that you have insufficient balance in your account. Please fund sufficient amount to avoid additional charges."              
+            },		                                                                                                   
         ]
     }
 }
