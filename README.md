@@ -40,10 +40,11 @@ npm install
 ```
 ### Running the app
 
-To start npm server, use below command 
+To start node server, go to folder ApiSEAN.Services and run below command 
 ``` nowrap
-npm start
+node server.js
 ```
+Node will run in port 3080
 
 To build the project, use command 
 
