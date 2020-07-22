@@ -1,0 +1,47 @@
+<!-- <h2>Your Transactions</h2>
+<table border="1" cellpadding="10" style="border-collapse: collapse; border:1px solid #ccc; padding: 5px;">
+    <tr style="border-bottom:1px solid #ccc">
+        <td></td>
+        <td>Transaction Date</td>
+        <td>Description</td>
+        <td>Amount</td>
+        <Td>Currency</Td>
+        <td>Balance</td>
+    </tr>
+    <tr *ngFor="let transaction of transactions" style="border-bottom:1px solid #ccc; padding: 15px;">
+        <td><i class="fa fa-rss"></i></td>
+        <td >{{transaction.BookingDateTime}}</td>
+        <td>{{transaction.TransactionInformation}}</td>
+        <Td>{{transaction.Amount.Amount}}</Td>
+        <Td>{{transaction.Amount.Currency}}</Td>
+        
+        <td>{{transaction.Balance.Amount.Amount}}</td>
+
+    </tr>
+</table> -->
+
+<h2> Transactions </h2>
+
+<div *ngIf="isLoading"><h4>Loading...</h4></div>
+<h3 *ngIf="!isLoading"> Most recent 10 transactions</h3>
+<div *ngIf="!isLoading">
+<div *ngFor="let transaction of transactions" class="grid-container">
+    <div class="grid-item">
+        <div class="icon">
+            
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="left-desc">
+            <h2>{{transaction.TransactionInformation}}</h2>
+            <h3>{{transaction.BookingDateTime}}</h3>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="right-desc">
+            <h2>Amount: £ {{transaction.Amount.Amount}}</h2>
+            <h2>{{transaction.CreditDebitIndicator}}</h2>
+        </div>
+    </div>  
+  </div>
+</div>

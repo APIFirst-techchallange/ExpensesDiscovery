@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <h1>RBS - View your transactions </h1>
+<div *ngIf="!isLoggedIn">
+    <span>Click here to log in before to view your transactions</span>
+    &nbsp;&nbsp;<button (click)="initialJourney()">Log in</button>
+</div>
+<div *ngIf="isLoggedIn">
+    <button (click)="exitJourney()">Log off</button>
+</div> -->
+
+<div class="consent-view">
+    <app-header> </app-header>
+    <app-menu></app-menu>
+    <div class="consent-body">
+        <div class="panel-header">
+            <h2 *ngIf="!isLoggedIn">Redirecting to login screen. Please wait...</h2>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="consent-footer">
+        <app-footer></app-footer>
+    </div>
+</div>
+

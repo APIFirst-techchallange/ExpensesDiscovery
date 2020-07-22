@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    color:#ad1982;
+  }
+  
+  li {
+    float: left;
+    /* border-right:1px solid #ccc; */
+  }
+  
+  li a {
+    display: block;
+    color: #ad1982;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #eee;
+  }
+
+  .active{
+    background-color: #ccc;
+    font-weight: 800;
+  }
+
+  .li-logoff{
+    float: right;
+    padding-right: 5px;
+    margin-top: 4px;
+  }
+
+  .logoff-button {
+    background-color: #007ea6;
+    cursor: pointer;
+    height: 2vw;
+    width: 5vw;
+    color: #fff;
+    font-size: 0.7vw;
+    font-weight: 700;
+    border: 1px solid #007ea6;
+    font-family: 'Segoe UI';
+    border-radius: 3px;
+}

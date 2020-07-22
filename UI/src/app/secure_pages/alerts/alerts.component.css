@@ -1,0 +1,27 @@
+.inner-container{
+    display: flex;
+    flex: 2;
+    margin-top: 10px;
+    border: 1px solid #f1c40f;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+.inner-container .left{
+    background-color: #eee;
+    display: block;
+    padding: 10px;
+    width: 30px;
+}
+.inner-container .left img{
+    width:90px;
+}
+.inner-container .center {
+    margin-top: -5px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.inner-container h2{
+    font-size:15px;
+}

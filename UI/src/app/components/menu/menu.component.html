@@ -1,0 +1,13 @@
+<ul *ngIf="isLoggedIn">
+    <li>
+        <a routerLink="secure/user/dashboard" routerLinkActive="active">Dashboard </a>
+    </li>
+    <li><a routerLink="secure/user/expense-trends" routerLinkActive="active">Spending analysis </a></li>
+    <li>
+        <a routerLink="secure/user/transactions" routerLinkActive="active">Transactions </a>
+    </li>
+    <li><a routerLink="secure/user/alerts" routerLinkActive="active">Alerts </a></li>
+    <li><a routerLink="secure/user/advice" routerLinkActive="active">Experts advice </a></li>
+    <li class="li-logoff"><button (click)="endJourney()" class="logoff-button">Logoff</button></li>
+</ul>
+

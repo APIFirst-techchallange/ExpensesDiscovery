@@ -1,0 +1,83 @@
+
+<h2>Spending analysis</h2>
+<div *ngIf="isLoading"><h4>Loading...</h4></div>
+<h4 *ngIf="!isLoading">The analysis calculated based on your last 3 months spent in the account. Expand the controls to view your fixed, variable and ATM transacction</h4>
+<div *ngIf="!isLoading" class="accordion-wrapper" (click)="handleFixedAccordion()"> 
+    <div class="accordion-header">
+     <span class="left">Fixed transactions</span>
+     <span class="right">{{toggleSymbol}}</span> 
+    </div>
+   <div *ngIf="showMerchantTransaction">
+      <div *ngFor="let transaction of filteredMerchantTransactions" class="grid-container">
+        <div class="grid-item">
+            <div class="icon">
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="left-desc">
+                <h1 class="h1">{{transaction.TransactionInformation}}</h1>
+                <!-- <h3>{{transaction.BookingDateTime}}</h3> -->
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="right-desc">
+                <h1 class="h1">Spent: £ {{transaction.Amount.Amount}}</h1>
+                <h2></h2>
+            </div>
+        </div>  
+      </div>
+   </div>
+ </div>
+
+ <div *ngIf="!isLoading" class="accordion-wrapper" (click)="handleVariableAccordion()"> 
+    <div class="accordion-header">
+        <span class="left">Variable transactions</span>
+        <span class="right">{{toggleSymbol}}</span> 
+       </div>
+  <div *ngIf="showVariableTransaction">
+     <div *ngFor="let transaction of filteredVariableTransactions" class="grid-container">
+       <div class="grid-item">
+           <div class="icon">
+           </div>
+       </div>
+       <div class="grid-item">
+           <div class="left-desc">
+               <h1 class="h1">{{transaction.TransactionInformation}}</h1>
+               <!-- <h3>{{transaction.BookingDateTime}}</h3> -->
+           </div>
+       </div>
+       <div class="grid-item">
+           <div class="right-desc">
+            <h1 class="h1">Spent: £ {{transaction.Amount.Amount}}</h1>
+               <h2></h2>
+           </div>
+       </div>  
+     </div>
+  </div>
+</div>
+
+<div *ngIf="!isLoading" class="accordion-wrapper" (click)="handleCardsAccordion()"> 
+    <div class="accordion-header">
+        <span class="left">ATM transactions</span>
+        <span class="right">{{toggleSymbol}}</span> 
+       </div>
+  <div *ngIf="showCardTransaction">
+     <div *ngFor="let transaction of filteredCardsTransactions" class="grid-container">
+       <div class="grid-item">
+           <div class="icon">
+           </div>
+       </div>
+       <div class="grid-item">
+           <div class="left-desc">
+               <h2 class="h1">{{transaction.TransactionInformation}}</h2>
+           </div>
+       </div>
+       <div class="grid-item">
+           <div class="right-desc">
+            <h1 class="h1">Spent: £ {{transaction.Amount.Amount}}</h1>
+               <!-- <h2>Balance: £ {{transaction.Balance.Amount.Amount}}</h2> -->
+           </div>
+       </div>  
+     </div>
+  </div>
+</div>

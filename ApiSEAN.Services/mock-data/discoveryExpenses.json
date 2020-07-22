@@ -1,0 +1,102 @@
+{
+    "Data": {
+        "FixedTransaction": [
+            {               
+                "Amount": {
+                    "Amount": "3600.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "House Rent"              
+            },
+			{               
+                "Amount": {
+                    "Amount": "1600.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "Electricity Bill"              
+            },
+			{               
+                "Amount": {
+                    "Amount": "900.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "Vodafone mobile bill"              
+            }			
+			                                                                                                   
+        ],
+		"VariableTransactions": [
+            {               
+                "Amount": {
+                    "Amount": "4400.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "Amazon"              
+            },
+			{               
+                "Amount": {
+                    "Amount": "900.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "Tesco"              
+            }
+			,
+			{               
+                "Amount": {
+                    "Amount": "900.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "H&B"              
+            }                                                                                                     
+        ],
+		"ATMWithDraws": [
+            {               
+                "Amount": {
+                    "Amount": "300.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "53-62 South Bridge"              
+            },
+			{               
+                "Amount": {
+                    "Amount": "450.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "12 N W Circus Pl, Stockbridge, Edinburgh EH3 6SX"              
+            }
+			,
+			{               
+                "Amount": {
+                    "Amount": "320.00",
+                    "Currency": "GBP"
+                },             
+                "TransactionInformation": "2 Bernard St, Leith, Edinburgh EH6 6PX"              
+            }                                                                                                     
+        ],
+		"ExpertAdvices": [
+            {                                           
+                "TransactionInformation": "53-62 South Bridge"              
+            },
+			{                                         
+                "TransactionInformation": "12 N W Circus Pl, Stockbridge, Edinburgh EH3 6SX"              
+            }
+			,
+			{                  
+                "TransactionInformation": "2 Bernard St, Leith, Edinburgh EH6 6PX"              
+            }                                                                                                     
+        ],
+		"Reminders": [
+            {                                          
+                "TransactionInformation": "53-62 South Bridge"              
+            },
+			{                                         
+                "TransactionInformation": "12 N W Circus Pl, Stockbridge, Edinburgh EH3 6SX"              
+            }
+			,
+			{                                          
+                "TransactionInformation": "2 Bernard St, Leith, Edinburgh EH6 6PX"              
+            }                                                                                                     
+        ]
+    }
+}
+
+
