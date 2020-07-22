@@ -40,6 +40,11 @@ npm install
 ```
 ### Running the app
 
+To start npm server, use below command 
+``` nowrap
+npm start
+```
+
 To build the project, use command 
 
 ``` nowrap
