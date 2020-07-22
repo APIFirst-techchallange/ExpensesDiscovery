@@ -66,7 +66,6 @@ The application will be up and running in specified port
 ## ScreenShots
 
 # ![Dashboard](dashboard.png)
-# ![Trans](transaction.png)
 # ![Spend-Analysis-1](spend1.png)
 # ![Spend-Analysis-2](spend2.png)
 # ![Alerts](alerts.png)
